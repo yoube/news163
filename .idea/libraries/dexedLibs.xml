@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/fastjson-1.1.20-496cdf5f2abe9c8d632fae6dbb0aa078.jar!/" />
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/pinterest-like-adapter-view-master-libaray-5b998e69e11c189c6e3ec1d8c8f145ff.jar!/" />
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/android-support-v4-7e28feadc520e6513c28fe4f3d2d02a1.jar!/" />
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/annotations-1a2ba5bed846fb7f2a3d65abc26db1d0.jar!/" />
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/volley_libaray-ef7a6937ac083a8c05f83c03ce94d869.jar!/" />
+      <root url="jar://E:/Desktop/libary/Volley_sample/bin/dexedLibs/gson-2.2.4-c01144d4bdd398b014c86fd6b5ad956b.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

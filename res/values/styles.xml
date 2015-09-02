@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main_tabs_item_style">
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/selector_tabs_textcolor</item>
+    </style>
+    <!--新闻tab头-->
+    <style name="news_item_style">
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@drawable/selector_tabs_textcolor</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">@dimen/news_find_size</item>
+        <item name="android:background">@drawable/selector_tabs_item_bg</item>
+    </style>
+
+    <style name="news_photoset_itme_style">
+        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!--新闻内容标题样式-->
+    <style name="news_content_title">
+        <item name="android:textSize">@dimen/news_content_title_find_size</item>
+        <item name="android:textColor">@color/news_title_find_color</item>
+    </style>
+</resources>

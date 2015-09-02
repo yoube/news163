@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <color name="app_white">#F6F6F6</color>
+
+    <!--边框色-->
+    <color name="color_boder_huei">#ffd6d6d6</color>
+    <!--默认灰色字体颜色-->
+    <color name="find_color_huei">#AAAAAA</color>
+    <!--默认红色字体颜色-->
+    <color name="color_read">#EB413D</color>
+
+    <!--新闻标题-->
+    <color name="news_title_find_color">#ff242424</color>
+    <!--新闻简介-->
+    <color name="news_discription_find_color">#9E9E9E</color>
+
+
+</resources>

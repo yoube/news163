@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AndroidImageSlider_library/AndroidImageSlider_library.iml" filepath="$PROJECT_DIR$/../AndroidImageSlider_library/AndroidImageSlider_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NineOldAndroids-library/NineOldAndroids-library.iml" filepath="$PROJECT_DIR$/../NineOldAndroids-library/NineOldAndroids-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Volley_libaray/Volley_libaray.iml" filepath="$PROJECT_DIR$/../Volley_libaray/Volley_libaray.iml" />
+      <module fileurl="file://E:/Desktop/libary/Volley_sample/Volley_sample.iml" filepath="E:/Desktop/libary/Volley_sample/Volley_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../XListView-Android-master/XListView-Android-master.iml" filepath="$PROJECT_DIR$/../XListView-Android-master/XListView-Android-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/../android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news163.iml" filepath="$PROJECT_DIR$/news163.iml" />
+      <module fileurl="file://E:/Desktop/libary/pinterest-like-adapter-view-master-libaray/pinterest-like-adapter-view-master-libaray.iml" filepath="E:/Desktop/libary/pinterest-like-adapter-view-master-libaray/pinterest-like-adapter-view-master-libaray.iml" />
+    </modules>
+  </component>
+</project>

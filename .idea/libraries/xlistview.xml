@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="xlistview">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../XListView-Android-master/bin/xlistview.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

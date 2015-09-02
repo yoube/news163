@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                />
+
+        <RadioGroup
+                android:id="@+id/main_tabs_radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_tabs_height"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal"
+                android:paddingTop="3dp"
+                android:background="@color/white"
+                >
+
+
+            <RadioButton
+                    android:id="@+id/main_tabs_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="新闻"
+                    android:checked="true"
+                    android:drawableTop="@drawable/selector_tabs_news"
+                    style="@style/main_tabs_item_style"
+                    />
+            <RadioButton
+                    android:id="@+id/main_tabs_reader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="阅读"
+                    android:drawableTop="@drawable/selector_tabs_reader"
+                    style="@style/main_tabs_item_style"
+                    />
+            <RadioButton
+                    android:id="@+id/main_tabs_shiting"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="试听"
+                    android:drawableTop="@drawable/selector_tabs_shiting"
+                    style="@style/main_tabs_item_style"
+                    />
+            <RadioButton
+                    android:id="@+id/main_tabs_faxian"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="发现"
+                    android:drawableTop="@drawable/selector_tabs_faxian"
+                    style="@style/main_tabs_item_style"
+                    />
+        </RadioGroup>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/color_boder_huei"
+                      android:layout_above="@id/main_tabs_radiogroup"
+                    />
+        <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/main_tabs_radiogroup"
+                />
+
+    </RelativeLayout>
+</android.support.v4.app.FragmentTabHost>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--acttionBar高度-->
+    <dimen name="actionBar_heigth">50dp</dimen>
+
+    <dimen name="main_tabs_height">53dp</dimen>
+
+    <!--新闻列表类型字体大小-->
+    <dimen name="news_find_size">18sp</dimen>
+   <!--新闻列表标题字体大小-->
+    <dimen name="news_title_find_size">16sp</dimen>
+   <!--新闻简介字体大小-->
+    <dimen name="news_discription_find_size">14sp</dimen>
+    <!--新闻内容头字体大小-->
+    <dimen name="news_content_title_find_size">22sp</dimen>
+</resources>
