@@ -5,11 +5,13 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.view.ViewPager;
+import android.view.KeyEvent;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TabHost;
 import android.widget.Toast;
 import com.wg.news.R;
+import com.wg.news.util.ToastUtils;
 
 import static android.support.v4.app.FragmentTabHost.*;
 
@@ -55,5 +57,30 @@ public class MainActivity extends FragmentActivity {
         });
 
 
+    }
+    private boolean backFlag = true;
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if(event.getKeyCode() == KeyEvent.KEYCODE_BACK){
+            if(backFlag){
+                ToastUtils.show(this,"再按一次退出客户端");
+                new Thread(){
+                    @Override
+                    public void run() {
+                        backFlag = false;
+                        try {
+                            Thread.sleep(3000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        backFlag = true;
+                    }
+                }.start();
+                return false;
+            }else{
+                return super.onKeyDown(keyCode,event);
+            }
+        }
+        return super.onKeyDown(keyCode,event);
     }
 }
